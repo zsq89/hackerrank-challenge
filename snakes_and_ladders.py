@@ -46,6 +46,7 @@ def drawGraph(ladders, snakes):
         for t in triggers:
             if e < t:
                 G[e][t] = getWeight(e, t, triggers)
+    print(G)
     return G
     pass
 
